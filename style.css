@@ -1,0 +1,42 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+body main {
+  width: 99.9vw;
+}
+body main header {
+  background: aqua;
+  height: 10rem;
+}
+body main .main_container {
+  display: flex;
+}
+body main .main_container aside {
+  background: rgb(64, 72, 237);
+  min-width: 25%;
+  max-width: 50%;
+  height: 50vh;
+}
+body main .main_container section {
+  background: rgb(29, 252, 17);
+  flex-grow: 1;
+  height: 55rem;
+}
+body footer {
+  height: 15rem;
+  width: 99.9vw;
+  background: rgb(106, 106, 109);
+  position: fixed;
+}/*# sourceMappingURL=style.css.map */
