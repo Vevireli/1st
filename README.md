@@ -1,1 +1,12 @@
 # 1st
+-project
+  -backand
+  -frontend
+    -css
+      -style.css
+      -style.css.map
+      -style.scss
+    -img
+    -js
+    -pages
+    -index.html
